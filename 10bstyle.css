@@ -1,0 +1,42 @@
+.image{
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+}
+.profile{
+    width: 100%;
+    border-radius: 50px;
+}
+.text{
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+}
+.name{
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+p{
+    font-family: arial;
+    font-size: small;
+    color: gray;
+    margin: 0px 10px;
+}
+.button{
+    display: inline-block;
+    vertical-align: middle;
+}
+button{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(66, 122, 227);
+    padding: 10px;
+    cursor: pointer;
+}
+.box{
+    margin: 20px;
+}

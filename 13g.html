@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Flexbox</title>
+    <style>
+        div{
+            font-family: Arial;
+            padding: 2px;
+        }
+        .title1{
+            font-weight: bold;
+        }
+        .title2, .site{
+            color: gray;
+        }
+        .zedd{
+            width: 100%;
+            object-fit: cover;
+            border-radius: 50px;
+        }
+        .zedddiv{
+            display: flex;
+            width: 55px;
+            height: 55px;
+        }
+        .flex1{
+            display: flex;
+        }
+        .block1{
+            width: 350px;
+        }
+        .flex2{
+            display: flex;
+            align-items: center; 
+        }
+        .block2{
+            width: 240px;
+        }
+        .flex3{
+            display: flex;
+            align-items: center;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(205, 205, 205);
+            border-radius: 25px;
+            padding-left: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        .div1-flex3{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(205, 205, 205);
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(205, 205, 205);
+            border-radius: 23px 0px 0px 23px;
+        }
+        .flex4{
+            display: flex;
+            align-items: center;
+        }
+        .div1-flex4{
+            width: 60px;
+            height: 100px;
+        }
+        .block3{
+            width: 450px;
+        }
+    </style>
+</head>
+<body>
+    <div class="block3">
+        <div class="flex2">
+            <div class="zedddiv">
+                <img class="zedd" src="zedd.webp" alt="Zedd">
+            </div>
+            <div class="block1">
+                <div class="flex1">
+                    <div class="title1">Zedd</div>
+                    <div class="title2">@zedd</div>
+                </div>
+                <div>What is backend web development? A complete overview. New video is up!</div>
+            </div>
+        </div>
+
+        <div class="flex4">
+            <div class="div1-flex4"></div>
+            <div class="flex3">
+                <div class="div1-flex3"></div>
+                <div>
+                    <div class="block2">
+                        <div class="site">youtube.com</div>
+                        <div>Backend web development - a complete overview (2021)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

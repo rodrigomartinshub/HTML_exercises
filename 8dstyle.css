@@ -1,0 +1,28 @@
+input{
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.firstname{
+    display: inline-block;
+}
+.lastname{
+    display: inline-block;
+}
+.email{
+    width: 227px;
+    display: block;
+    margin-bottom: 10px;
+}
+button{
+    display: block;
+    color: white;
+    font-style: bold;
+    background-color: rgb(48, 91, 233);
+    padding: 10px 50px;
+    width: 250px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}

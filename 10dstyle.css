@@ -1,0 +1,51 @@
+.profile{
+    width: 100%;
+}
+.profile2{
+    width: 100%;
+    border-radius: 50px;
+}
+.image{
+    width: 200px;
+}
+.image2{
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+p{
+    font-family: arial;
+    font-size: small;
+    color: gray;
+}
+.name{
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    margin: 5px 10px;
+}
+.image2{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 10px;
+}
+.text{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 1px;
+}
+button{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(66, 122, 227);
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.box{
+    display: inline-block;
+    width: 200px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.204);
+    margin: 10px;
+}

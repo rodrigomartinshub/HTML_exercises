@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Flexbox</title>
+    <style>
+        .box{
+            display: flex;
+        }
+        .box1{
+            display: flex;
+            background-color: lightskyblue; 
+            width: 100px; 
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+        }
+        .box2{
+            background-color: lightgreen; width: 200px; height: 50px;
+        }
+        .item1{
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box1">
+            <div class="item1">item1</div>
+        </div>
+        <div class="box2"></div>
+    </div>
+</body>
+</html>

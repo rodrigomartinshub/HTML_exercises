@@ -1,0 +1,29 @@
+input{
+    display: block;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 5px;
+    background-color: rgb(230, 230, 230);
+    border: none;
+}
+p{
+    font-family: arial;
+    font-size: 33px;
+}
+.request-button{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px 17px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.schedule-button{
+    color: black;
+    background-color: rgb(230, 230, 230);
+    border: none;
+    padding: 10px 17px;
+    margin-top: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}

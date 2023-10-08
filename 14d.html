@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Fixed</title>
+    <style>
+        body{
+            height: 3000px;
+        }
+        .divright{
+            color: white;
+            background-color: green;
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+        }
+        .divleft{
+            color: white;
+            background-color: blue;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            bottom: 0px;
+        }
+        .overlay{
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .boxmodal{
+            background-color: rgb(243, 237, 237);
+            width: 250px;
+            border-radius: 5px;
+        }
+        .title{
+            font-weight: bold;
+            font-size: large;
+            padding-bottom: 0px;
+            margin-bottom: 5px;
+            margin-top: 10px;
+        }
+        p{
+            font-family: arial;
+            font-size: small;
+            padding: 10px;
+            padding-top: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        button{
+            margin-left: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="divright">right sidebar</div>
+    <div class="divleft">left sidebar</div>
+    <div class="overlay">
+        <div class="boxmodal">
+            <p class="title">Modal Title</p>
+            <p>This is a modal</p>
+            <button>Close</button>
+        </div>
+    </div>
+</body>
+</html>

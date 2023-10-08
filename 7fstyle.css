@@ -1,0 +1,22 @@
+p{
+    font-family: arial;
+    font-size: small;
+    color: rgb(99, 99, 99);
+}
+.email-text{
+    margin-bottom: 2px;
+}
+.textbox{
+    padding-right: 155px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 3px;
+}
+button{
+    color: white;
+    background-color: rgb(22, 64, 190);
+    border: none;
+    padding: 10px 125px;
+    border-radius: 36px;
+    cursor: pointer;
+}

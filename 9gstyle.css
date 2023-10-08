@@ -1,0 +1,49 @@
+.box-luffy{
+    width: 210px;
+    display: inline-block;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.255);
+    margin: 10px;
+}
+.box-nami{
+    width: 210px;
+    display: inline-block;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.255);
+    margin: 10px;
+}
+.box-zoro{
+    width: 210px;
+    display: inline-block;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.255);
+    margin: 10px;
+}
+.profile-pic{
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+}
+.name{
+    font-weight: bold;
+    font-family: arial;
+    font-size: large;
+    color: black;
+    margin-bottom: 1px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+p{
+    font-family: arial;
+    font-size: small;
+    color: rgb(110, 109, 109);
+    margin-top: 0px;
+    margin-bottom: 1px;
+    padding-left: 5px;
+}
+button{
+    border: none;
+    color: white;
+    background-color: rgb(15, 116, 217);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}

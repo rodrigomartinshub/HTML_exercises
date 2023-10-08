@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layouts</title>
+    <style>
+        p{
+            font-family: arial;
+            font-size: small;
+            color: gray;
+        }
+        .name{
+            font-size: large;
+            font-weight: bold;
+            color: black;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 30px 1fr;
+            align-items: center;
+            column-gap: 10px;
+            margin-left: 10px;
+        }
+        button{
+            color: white;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(66, 122, 227);
+            padding: 10px;
+            cursor: pointer;
+        }
+        .box{
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.204);
+        }
+        .grid2{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    </style>
+    <link rel="stylesheet" href="10dstyle.css">
+</head>
+<body>
+    <div class="grid2">
+        <div class="box">
+            <div class="image">
+                <img class="profile" src="luffy2.webp" alt="Luffy">
+            </div>
+                <p class="name">Luffy</p>
+            <div class="grid">
+                <img class="profile2" src="luffy2.webp" alt="Luffy">
+                <p>2 mutual friends</p>
+            </div>
+            <div>
+                <button>Add Friend</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img class="profile" src="zoro.jpg" alt="Zoro">
+            </div>
+                <p class="name">Zoro</p>
+            <div class="grid">
+                <img class="profile2" src="luffy2.webp" alt="Luffy">
+                <p>3 mutual friends</p>
+            </div>
+            <div>
+                <button>Add Friend</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img class="profile" src="nami2.webp" alt="Nami">
+            </div>
+                <p class="name">Nami</p>
+            <div class="grid">
+                <img class="profile2" src="luffy2.webp" alt="Luffy">
+                <p>1 mutual friends</p>
+            </div>
+            <div>
+                <button>Add Friend</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

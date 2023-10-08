@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+       p{
+        font-family: arial;
+        margin-top: 10px;
+        margin-bottom: 10px;
+       }
+       .borderbox{
+        width: 300px;
+        border-color: lightgray;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+       }
+       .box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+       }
+       .button{
+        background-color: royalblue;
+        border: none;
+        border-radius: 36px;
+        padding: 3px 10px;
+        color: white;
+        font-weight: bold;
+       }
+    </style>
+</head>
+<body>
+    <div class="borderbox">
+        <div class="box">
+            <div><p>Home</p></div>
+            <button class="button">14</button>
+        </div>
+        <div class="box">
+            <div><p>Notifications</p></div>
+            <button class="button">3</button>
+        </div>
+        <div class="box">
+            <div><p>Messages</p></div>
+            <button class="button">5</button>
+        </div>
+    </div>
+    
+</body>
+</html>

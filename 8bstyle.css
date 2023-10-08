@@ -1,0 +1,17 @@
+p{
+    font-family: arial;
+    width: 230px;
+    display: inline-block;
+    vertical-align: middle;
+}
+button{
+    padding: 4px 15px;
+    width: 50px;
+    margin: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: rgb(189, 224, 255);
+    border-style: solid;
+    border-width: 1px;
+}

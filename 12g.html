@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        
+        div{
+            font-family: arial;
+        }
+        .photo{
+            width: 60px;
+            height: 60px;
+            background-color: rgb(224, 28, 28);
+            border-radius: 50px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .photo2{
+            width: 60px;
+            height: 60px;
+            background-color: rgb(51, 220, 48);
+            border-radius: 50px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .photo3{
+            width: 60px;
+            height: 60px;
+            background-color: rgb(90, 40, 214);
+            border-radius: 50px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        .name{
+            font-size: larger;
+            font-weight: bold;
+        }
+        .text1{
+            color: gray;
+        }
+        .text2{
+            color: gray;
+            font-size: smaller;
+        }
+        .box1{
+            padding: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin: 1px;
+        }
+        .box2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 250px;
+            align-items: center;
+        }
+        .box3{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border: 1px solid gray;
+            border-radius: 5px;
+            width: 310px;
+            padding: 10px;
+        }
+        .button{
+            color: white;
+            background-color: rgb(64, 117, 217);
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover{
+            background-color: black;
+        }
+        .button:active{
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <div class="box3">
+        <div class="photo"></div>
+        <div class="box2">
+            <div class="box1">
+                <div class="name">Oliver</div>
+                <div class="text1">the cat</div>
+                <div class="text2">Popular</div>
+            </div>
+            <div>
+                <div class="button">Follow</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box3">
+        <div class="photo2"></div>
+        <div class="box2">
+            <div class="box1">
+                <div class="name">Mimi</div>
+                <div class="text1">Sleepy cat</div>
+                <div class="text2">Popular</div>
+            </div>
+            <div>
+                <div class="button">Follow</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box3">
+        <div class="photo3"></div>
+        <div class="box2">
+            <div class="box1">
+                <div class="name">Rex</div>
+                <div class="text1">Happy Bulldog</div>
+                <div class="text2">Popular</div>
+            </div>
+            <div>
+                <div class="button">Follow</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.google{
+    width: 250px;
+    margin: auto;
+}
+.google-search{
+    margin: auto;
+    padding: 10px;
+    padding-left: 20px;
+    width: 500px;
+    border-width: 0.1px;
+    border-style: solid;
+    border-radius: 36px;
+    box-shadow: +1px +1px 30px rgba(0, 0, 0, 0.275);
+}
+.center{
+    text-align: center;
+}
+button{
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.147);
+    cursor: pointer;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Fixed</title>
+    <style>
+        body{
+            height: 3000px;
+        }
+        .leftsidebar{
+            position: fixed;
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            background-color: rgb(35, 35, 35);
+            width: 100px;
+        }
+        .leftsidebar2{
+            position: fixed;
+            top: 0px;
+            bottom: 0px;
+            left: 100px;
+            background-color: rgb(62, 62, 62);
+            width: 180px;
+        }
+        .imagem{
+            width: 100%;
+            object-fit: cover;
+            border-radius: 36px;
+        }
+        .imagediv{
+            width: 60px;
+            height: 60px;
+            padding: 10px;
+        }
+        div{
+            font-family: arial;
+            font-size: large;
+            color: gray;
+            padding: 10px;
+        }
+        .title{
+            color: white;
+            padding-left: 0px;
+        }
+        .flexbox{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="leftsidebar">
+        <div class="imagediv"><img class="imagem" src="luffy2.webp" alt=""></div>
+        <div class="imagediv"><img class="imagem" src="nami2.webp" alt=""></div>
+        <div class="imagediv"><img class="imagem" src="zoro.jpg" alt=""></div>
+    </div>
+    <div class="leftsidebar2">
+        <div class="flexbox">
+            <div class="title">INFO</div> <div>+</div>
+        </div>
+        <div># new-videos</div>
+        <div># updates</div>
+        <div># faq</div>
+    </div>
+</body>
+</html>

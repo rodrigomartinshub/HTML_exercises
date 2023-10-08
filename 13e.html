@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Flexbox</title>
+    <style>
+        div{
+         padding: 5px;
+         font-family: arial;
+         font-size: small;
+         color: gray;
+        }
+        .text{
+         padding-left: 12px;
+        }
+        .title{
+         font-weight: bold;
+         font-size: large;
+         color: black;
+         width: 170px;
+         padding-bottom: 1px;
+        }
+        .title2{
+         font-weight: bold;
+         color: black;
+         width: 250px;
+         padding-bottom: 1px;
+        }
+        .box1{
+         padding: 0px;
+        }
+        .pic1{
+         width: 50px;
+         height: 50px;
+         background-color: blueviolet;
+         border-radius: 36px;
+         display: flex;
+        }
+        .pic2{
+         width: 50px;
+         height: 50px;
+         background-color: rgb(176, 141, 209);
+         border-radius: 36px;
+         display: flex;
+        }
+        .pic3{
+         width: 50px;
+         height: 50px;
+         background-color: rgb(68, 43, 91);
+         border-radius: 36px;
+         display: flex;
+        }
+        .box2{
+         display: flex;
+         justify-content: space-between;
+         width: 320px;
+        }
+        .box4{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+        }
+        .box5{
+         width: 410px;
+         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.34);
+        }
+     </style>
+ </head>
+ <body>
+     <div class="box5">
+         <div>ALL INBOXES</div>
+         <div class="box4">
+             <div class="pic1"></div>
+                 <div class="box3">
+                     <div class="box2">
+                         <div class="box1">
+                             <div class="title">Chewy Promotions </div>
+                             <div class="title2">Biggest sales of the year!</div>
+                         </div>
+                         <div>4:58 PM</div>
+                     </div>
+                     <div class="text">Hey there! We're writing to tell you about our...</div>
+                 </div>
+         </div>
+
+         <div class="box4">
+            <div class="pic2"></div>
+                <div class="box3">
+                    <div class="box2">
+                        <div class="box1">
+                            <div class="title">Best Buy</div>
+                            <div class="title2">Your Best Buy eReceipt</div>
+                        </div>
+                        <div>4:58 PM</div>
+                    </div>
+                    <div class="text">Thank you for shopping at Best Buy, here is...</div>
+                </div>
+        </div>
+
+        <div class="box4">
+            <div class="pic3"></div>
+                <div class="box3">
+                    <div class="box2">
+                        <div class="box1">
+                            <div class="title">Netflix</div>
+                            <div class="title2">Here's what's coming soon to Netflix</div>
+                        </div>
+                        <div>4:58 PM</div>
+                    </div>
+                    <div class="text">Brand new movies and shows, old favorites...</div>
+                </div>
+        </div>
+     </div>
+ </body>
+ </html>

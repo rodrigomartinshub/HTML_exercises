@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Fixed</title>
+    <style>
+        body{
+            height: 3000px;
+        }
+        .buttons, .profile, .all{
+            display: flex;
+            padding: 3px;
+        }
+        .all{
+            justify-content: space-between;
+        }
+        .zedd{
+            width: 100%;
+            object-fit: cover;
+            border-radius: 60px;
+        }
+        .zedddiv{
+            display: flex;
+            width: 50px;
+            height: 50px;
+        }
+        .name{
+            margin-left: 10px;
+            font-weight: bold;
+            font-family: arial;
+        }
+        .profile{
+            align-items: center;
+            width: 160px;
+            justify-content: flex-start;
+        }
+        .all{
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+        .buttons{
+            margin: 5px;
+            width: 210px;
+            justify-content: space-between;
+        }
+        button{
+            border: none;
+            border-radius: 5px;
+            width: 100px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .addbutton{
+            background-color: rgb(35, 71, 201);
+            color: white;
+            font-weight: bold;
+            font-family: arial;
+        }
+        .messagebutton{
+            background-color: rgb(206, 206, 206);
+            font-weight: bold;
+            font-family: arial;
+        }
+        .header{
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            left: 0px;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color:rgb(225, 213, 213);
+        }
+    </style>
+</head>
+<body>
+        <div class="header">
+            <div class="all">
+                <div class="profile">
+                    <div class="zedddiv">
+                        <img class="zedd" src="zedd.webp" alt="Zedd">
+                    </div>
+                    <div class="name">Zedd</div>
+                </div>
+                <div class="buttons">
+                    <button class="addbutton">Add Friend</button>
+                    <button class="messagebutton">Message</button>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
